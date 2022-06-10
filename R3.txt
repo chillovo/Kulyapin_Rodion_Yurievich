@@ -16,5 +16,9 @@ no shut
 
 ex 
 
-ip route 10.0.10.0 255.255.255.0 195.65.24.201
-ip route 14.0.20.0 255.255.255.0 195.65.24.65
+route rip
+version 2
+no auto-summary
+network 18.0.30.0
+network 195.65.24.64
+network 195.65.24.200
