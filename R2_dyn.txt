@@ -14,6 +14,8 @@ int s0/0/1
 ip address 81.30.199.6 255.255.255.252
 no shut
 
+ex 
+
 route rip
 version 2
 no auto-summary
